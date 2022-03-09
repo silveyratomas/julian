@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: rgba(213, 204, 204, 0.864);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.julianCasa {
+    width: 95%;
+    margin: auto;
+}
+
+.julian {
+    display: flex;
+    
+    align-items: center;
+    height: 50px;
+    padding: 50px 0;
+}
+
+.fotoJulian {
+    width: 100px;
+    padding: 1%;
+}
+
+.julian ul li a:hover{
+    border-bottom: 2px solid rgb(28, 26, 26);
+}
+
+/* informacion de casablancas */
+
+.informacion {
+    color: black;
+    text-align: justify;
+    width: 100%;
+}
+
+/* fotos casablancas */
+
+.conjuntoIMGs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotouno {
+    width: 250px;
+}
+.fotodos {
+    width: 250px;
+}
+.fototres {
+    width: 250px;
+}
+.fotocuatro {
+    width: 250px;
+}
+
+/* mi instagram */
+
+.ig {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+    text-align: center;
+  }
